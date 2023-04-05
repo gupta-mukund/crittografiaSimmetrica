@@ -1,5 +1,5 @@
 import random
-starting = 32
+starting = 31
 final = 126
 
 def generateKey(size):
@@ -30,7 +30,7 @@ def decifrazione(messaggio, chiave):
         chiave_pos = chiave_pos + 1
     return res
 
-messaggio = "ciaosonoio"
+messaggio = "Otto bit fanno un byte !1!1!1!"
 key = generateKey(len(messaggio))
 cifrato = cifrazione(messaggio, key)
 print(cifrato)

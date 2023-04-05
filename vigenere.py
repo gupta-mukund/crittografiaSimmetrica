@@ -1,4 +1,4 @@
-starting = 32
+starting = 31
 final = 126
 def cifrazione(messaggio, chiave):
     res = ""
@@ -22,4 +22,7 @@ def decifrazione(messaggio, chiave):
         chiave_pos = chiave_pos + 1
     return res
 
+
+cript_result = cifrazione("Proviamo questo algoritmo", "v3rm3")
+print(decifrazione(cript_result, "v3rm3"))
 print(decifrazione("4CQ\QgS_\GnWQTVY]TnZZ\PoRG[VnbXYdGa]Wl_^WXT\[NVU", "maniglio"))
